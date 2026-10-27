@@ -1,12 +1,10 @@
-# REST API Test Automation (Advanced)
+# REST API Test Automation
 
 Automated **functional testing framework** for the **DM.API Account** REST
 service — user registration, activation, login/logout, and email/password
 changes. Tests are written in Python with **pytest** and an **async httpx**
 client, run end-to-end against a live server plus a **MailHog** inbox (used to
 read activation and password-reset emails).
-
-> This repository is the advanced part of a REST API test automation course.
 
 ## Contents
 
